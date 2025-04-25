@@ -1,0 +1,21 @@
+[
+    {
+      "label": "Seleccionar todos los permisos",
+      "value": "Seleccionar todos los permisos",
+      "children": [
+        {
+          "label": "Doctores",
+          "value": "Doctores",
+          "children": [
+            { "label": "Ver Doctores", "value": "index.doctores" },
+            { "label": "Crear Doctor", "value": "crear.doctor" },
+            { "label": "Editar Doctor", "value": "editar.doctor" },
+            { "label": "Activar Doctor", "value": "activar.doctor" },
+            { "label": "Inactivar Doctor", "value": "inactivar.doctor" },
+            { "label": "Eliminar Doctor", "value": "eliminar.doctor" }
+          ]
+        }
+      ]
+    }
+  ]
+  

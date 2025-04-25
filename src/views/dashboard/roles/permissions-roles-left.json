@@ -1,0 +1,112 @@
+[
+    {
+      "label": "Seleccionar todos los permisos",
+      "value": "Seleccionar todos los permisos",
+      "children": [
+        {
+          "label": "Usuarios",
+          "value": "Usuarios",
+          "children": [
+            { "label": "Ver Usuarios", "value": "index.usuario" },
+            { "label": "Crear Usuario", "value": "crear.usuario" },
+            { "label": "Editar Usuario", "value": "editar.usuario" },
+            { "label": "Activar Usuario", "value": "activar.usuario" },
+            { "label": "Inactivar Usuario", "value": "inactivar.usuario" },
+            { "label": "Eliminar Usuario", "value": "eliminar.usuario" }
+          ]
+        },
+        {
+          "label": "Empresa",
+          "value": "Empresa",
+          "children": [
+            { "label": "Ver Empresas", "value": "index.empresas" },
+            { "label": "Crear Empresa", "value": "crear.empresa" },
+            { "label": "Editar Empresa", "value": "editar.empresa" },
+            { "label": "Activar Empresa", "value": "activar.empresa" },
+            { "label": "Inactivar Empresa", "value": "inactivar.empresa" },
+            { "label": "Eliminar Empresa", "value": "eliminar.empresa" }
+          ]
+        },
+        {
+          "label": "Sucursal",
+          "value": "Sucursal",
+          "children": [
+            { "label": "Ver Sucursales", "value": "index.sucursales" },
+            { "label": "Crear Sucursal", "value": "crear.sucursal" },
+            { "label": "Editar Sucursal", "value": "editar.sucursal" },
+            { "label": "Activar Sucursal", "value": "activar.sucursal" },
+            { "label": "Inactivar Sucursal", "value": "inactivar.sucursal" },
+            { "label": "Eliminar Sucursal", "value": "eliminar.sucursal" }
+          ]
+        },
+        {
+          "label": "Roles",
+          "value": "Roles",
+          "children": [
+            { "label": "Ver Sucursales", "value": "index.roles" },
+            { "label": "Crear Sucursal", "value": "crear.rol" },
+            { "label": "Editar Sucursal", "value": "editar.rol" },
+            { "label": "Activar Sucursal", "value": "activar.rol" },
+            { "label": "Inactivar Sucursal", "value": "inactivar.rol" },
+            { "label": "Eliminar Sucursal", "value": "eliminar.rol" }
+          ]
+        },
+        {
+          "label": "Categorias",
+          "value": "Categorias",
+          "children": [
+            { "label": "Ver Categorias", "value": "index.categorias" },
+            { "label": "Crear Categoria", "value": "crear.categoria" },
+            { "label": "Editar Categoria", "value": "editar.categoria" },
+            { "label": "Activar Categoria", "value": "activar.categoria" },
+            { "label": "Inactivar Categoria", "value": "inactivar.categoria" },
+            { "label": "Eliminar Categoria", "value": "eliminar.categoria" }
+          ]
+        },
+        {
+          "label": "Pacientes",
+          "value": "Pacientes",
+          "children": [
+            { "label": "Ver Pacientes", "value": "index.pacientes" },
+            { "label": "Crear Paciente", "value": "crear.paciente" },
+            { "label": "Editar Paciente", "value": "editar.paciente" },
+            { "label": "Activar Paciente", "value": "activar.paciente" },
+            { "label": "Inactivar Paciente", "value": "inactivar.paciente" },
+            { "label": "Eliminar Paciente", "value": "eliminar.paciente" }
+          ]
+        },
+        {
+          "label": "Colaboradores",
+          "value": "Colaboradores",
+          "children": [
+            { "label": "Ver Colaboradores", "value": "index.colaboradores" },
+            { "label": "Crear Colaborador", "value": "crear.colaborador" },
+            { "label": "Editar Colaborador", "value": "editar.colaborador" },
+            { "label": "Activar Colaborador", "value": "activar.colaborador" },
+            { "label": "Inactivar Colaborador", "value": "inactivar.colaborador" },
+            { "label": "Eliminar Colaborador", "value": "eliminar.colaborador" }
+          ]
+        },
+        {
+          "label": "Compras",
+          "value": "Compras",
+          "children": [
+            { "label": "Ver Compras", "value": "index.compras" },
+            { "label": "Agregar Compra", "value": "add.compra" },
+            { "label": "Anular Compra", "value": "anular.compra" }
+          ]
+        },
+        {
+          "label": "Planes",
+          "value": "Planes",
+          "children": [
+            { 
+              "label": "Ver Planes", 
+              "value": "index.planes" 
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

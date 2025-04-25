@@ -31,5 +31,9 @@ export const stateApi = {
         url: '/productos/status/',
         method: 'patch'
     },
+    active_clientes: {
+        url: '/clientes/status/',
+        method: 'patch'
+    },
     
 }

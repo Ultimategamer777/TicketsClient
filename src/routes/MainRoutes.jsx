@@ -37,6 +37,8 @@ import { BodegaRoutes } from './bodega.routes';
 
 import { ProductosRoutes } from './productos.routes';
 
+import { ClientesRoutes } from './clientes.routes';
+
 // import NotFound from '../views/404';
 
 export function MainRoutes(isAuth, userRole) {
@@ -66,6 +68,7 @@ export function MainRoutes(isAuth, userRole) {
         ...PrioritiesRoutes(),
         ...BodegaRoutes(),
         ...ProductosRoutes(),
+        ...ClientesRoutes(),
         
       ]
     },

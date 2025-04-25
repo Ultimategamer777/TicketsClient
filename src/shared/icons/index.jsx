@@ -23,3 +23,4 @@ export { RolesIcon } from './roles-icons';
 export { PrioridadIcon } from './prioridad-icon';
 export { BodegaIcon } from './bodega-icon';
 export { ProductosIcon } from './productos-icon';
+export { ClientesIcon } from './clientes-icon';

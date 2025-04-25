@@ -35,4 +35,8 @@ export const deleteApi = {
         url: '/productos',
         method: 'delete'
     },
+    delete_clientes: {
+        url: '/clientes',
+        method: 'delete'
+    },
 }

@@ -39,4 +39,8 @@ export const deleteApi = {
         url: '/clientes',
         method: 'delete'
     },
+    delete_nodos: {
+        url: '/nodos',
+        method: 'delete'
+    },
 }

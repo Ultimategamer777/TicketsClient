@@ -6,7 +6,7 @@ const ClientesView = lazy(() => import("../views/dashboard/clientes"));
 
 const FormClientes = lazy(() => import("../views/dashboard/clientes/components/FormClientes"));
 
-const FormEditClientes = lazy(() => import("../views/dashboard/clientes/components/FormClientes"))
+const FormEditClientes = lazy(() => import("../views/dashboard/clientes/ClientesAndNodosTabs"))
 
 import { useAuthStore } from "../store/auth.store";
 

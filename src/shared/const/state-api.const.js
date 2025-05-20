@@ -39,5 +39,8 @@ export const stateApi = {
         url: '/nodos/status/',
         method: 'patch'
     },
-    
+        active_ticket: {
+        url: '/tickets/status/',
+        method: 'patch'
+    },
 }

@@ -1,5 +1,5 @@
 import { IconUser } from '@tabler/icons-react';
-import { TagsIcon, RolesIcon, PrioridadIcon, BodegaIcon, ProductosIcon, ClientesIcon } from "../shared/icons"
+import { TagsIcon, RolesIcon, PrioridadIcon, BodegaIcon, ProductosIcon, ClientesIcon, TicketIcon } from "../shared/icons"
 
 const icons = {
   IconUser,
@@ -8,8 +8,8 @@ const icons = {
   PrioridadIcon,
   BodegaIcon,
   ProductosIcon,
-  ClientesIcon
-  
+  ClientesIcon,
+  TicketIcon
 };
 
 export const configs = {
@@ -65,6 +65,13 @@ export const configs = {
       type: 'item',
       url: '/home/clientes',
       icon: icons.ClientesIcon
+    },
+        {
+      id: 'ticket',
+      title: 'Ticket',
+      type: 'item',
+      url: '/home/ticket',
+      icon: icons.TicketIcon
     }
 
 

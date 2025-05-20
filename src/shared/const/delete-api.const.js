@@ -43,4 +43,9 @@ export const deleteApi = {
         url: '/nodos',
         method: 'delete'
     },
+        delete_ticket: {
+        url: '/tickets',
+        method: 'delete'
+    },
+
 }

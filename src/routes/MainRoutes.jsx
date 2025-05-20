@@ -11,7 +11,8 @@ import Loading from '../views/Loading';
 // ==============================|| MAIN ROUTING ||============================== //
 import ProtectedRoutes from '../components/ProtectedRoutes';
 
-const MainLayout = lazy(() => import('layout/MainLayout'));
+// const MainLayout = lazy(() => import('layout/MainLayout'));
+import MainLayout from 'layout/MainLayout';
 
 import { LoginRoutes } from './auth.routes';
 
@@ -38,6 +39,8 @@ import { BodegaRoutes } from './bodega.routes';
 import { ProductosRoutes } from './productos.routes';
 
 import { ClientesRoutes } from './clientes.routes';
+
+import { TicketRoutes } from './ticket.routes';
 
 // import NotFound from '../views/404';
 
@@ -69,6 +72,7 @@ export function MainRoutes(isAuth, userRole) {
         ...BodegaRoutes(),
         ...ProductosRoutes(),
         ...ClientesRoutes(),
+        ...TicketRoutes(),
         
       ]
     },

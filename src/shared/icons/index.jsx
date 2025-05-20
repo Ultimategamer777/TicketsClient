@@ -24,3 +24,6 @@ export { PrioridadIcon } from './prioridad-icon';
 export { BodegaIcon } from './bodega-icon';
 export { ProductosIcon } from './productos-icon';
 export { ClientesIcon } from './clientes-icon';
+export { TicketIcon } from './ticket-icon'
+export { PhoneIcon } from './phone-icon'
+export { WhatsappIcon } from './whatsapp-icon'
